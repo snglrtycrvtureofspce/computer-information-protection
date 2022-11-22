@@ -1,0 +1,16 @@
+C:\Users\snglrtycrvtureofspce\Desktop\Lab07\bin\Debug\Lab07.exe.config
+C:\Users\snglrtycrvtureofspce\Desktop\Lab07\bin\Debug\Lab07.exe
+C:\Users\snglrtycrvtureofspce\Desktop\Lab07\bin\Debug\Lab07.pdb
+C:\Users\snglrtycrvtureofspce\Desktop\Lab07\obj\Debug\Lab07.csproj.AssemblyReference.cache
+C:\Users\snglrtycrvtureofspce\Desktop\Lab07\obj\Debug\Lab07.csproj.SuggestedBindingRedirects.cache
+C:\Users\snglrtycrvtureofspce\Desktop\Lab07\obj\Debug\Lab07.csproj.CoreCompileInputs.cache
+C:\Users\snglrtycrvtureofspce\Desktop\Lab07\obj\Debug\Lab07.exe
+C:\Users\snglrtycrvtureofspce\Desktop\Lab07\obj\Debug\Lab07.pdb
+C:\Users\snglrtycrvtureofspce\Documents\snglrtycrvtureofspce\GitHub\computer-information-protection\Labs\Lab07\bin\Debug\Lab07.exe.config
+C:\Users\snglrtycrvtureofspce\Documents\snglrtycrvtureofspce\GitHub\computer-information-protection\Labs\Lab07\bin\Debug\Lab07.exe
+C:\Users\snglrtycrvtureofspce\Documents\snglrtycrvtureofspce\GitHub\computer-information-protection\Labs\Lab07\bin\Debug\Lab07.pdb
+C:\Users\snglrtycrvtureofspce\Documents\snglrtycrvtureofspce\GitHub\computer-information-protection\Labs\Lab07\obj\Debug\Lab07.csproj.AssemblyReference.cache
+C:\Users\snglrtycrvtureofspce\Documents\snglrtycrvtureofspce\GitHub\computer-information-protection\Labs\Lab07\obj\Debug\Lab07.csproj.SuggestedBindingRedirects.cache
+C:\Users\snglrtycrvtureofspce\Documents\snglrtycrvtureofspce\GitHub\computer-information-protection\Labs\Lab07\obj\Debug\Lab07.csproj.CoreCompileInputs.cache
+C:\Users\snglrtycrvtureofspce\Documents\snglrtycrvtureofspce\GitHub\computer-information-protection\Labs\Lab07\obj\Debug\Lab07.exe
+C:\Users\snglrtycrvtureofspce\Documents\snglrtycrvtureofspce\GitHub\computer-information-protection\Labs\Lab07\obj\Debug\Lab07.pdb
