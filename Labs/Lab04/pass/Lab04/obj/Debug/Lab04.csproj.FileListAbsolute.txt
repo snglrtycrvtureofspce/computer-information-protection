@@ -1,0 +1,8 @@
+C:\Users\snglrtycrvtureofspce\Documents\snglrtycrvtureofspce\GitHub\computer-information-protection\Labs\Lab04\pass\Lab04\obj\Debug\Lab04.csproj.AssemblyReference.cache
+C:\Users\snglrtycrvtureofspce\Documents\snglrtycrvtureofspce\GitHub\computer-information-protection\Labs\Lab04\pass\Lab04\obj\Debug\Lab04.csproj.SuggestedBindingRedirects.cache
+C:\Users\snglrtycrvtureofspce\Documents\snglrtycrvtureofspce\GitHub\computer-information-protection\Labs\Lab04\pass\Lab04\obj\Debug\Lab04.csproj.CoreCompileInputs.cache
+C:\Users\snglrtycrvtureofspce\Documents\snglrtycrvtureofspce\GitHub\computer-information-protection\Labs\Lab04\pass\Lab04\bin\Debug\Lab04.exe.config
+C:\Users\snglrtycrvtureofspce\Documents\snglrtycrvtureofspce\GitHub\computer-information-protection\Labs\Lab04\pass\Lab04\bin\Debug\Lab04.exe
+C:\Users\snglrtycrvtureofspce\Documents\snglrtycrvtureofspce\GitHub\computer-information-protection\Labs\Lab04\pass\Lab04\bin\Debug\Lab04.pdb
+C:\Users\snglrtycrvtureofspce\Documents\snglrtycrvtureofspce\GitHub\computer-information-protection\Labs\Lab04\pass\Lab04\obj\Debug\Lab04.exe
+C:\Users\snglrtycrvtureofspce\Documents\snglrtycrvtureofspce\GitHub\computer-information-protection\Labs\Lab04\pass\Lab04\obj\Debug\Lab04.pdb

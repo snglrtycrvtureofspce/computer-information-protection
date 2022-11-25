@@ -1,0 +1,16 @@
+D:\ЗКИ\ЛР04\pass\Part02\bin\Debug\Part02.exe.config
+D:\ЗКИ\ЛР04\pass\Part02\bin\Debug\Part02.exe
+D:\ЗКИ\ЛР04\pass\Part02\bin\Debug\Part02.pdb
+D:\ЗКИ\ЛР04\pass\Part02\obj\Debug\Part02.csproj.AssemblyReference.cache
+D:\ЗКИ\ЛР04\pass\Part02\obj\Debug\Part02.csproj.SuggestedBindingRedirects.cache
+D:\ЗКИ\ЛР04\pass\Part02\obj\Debug\Part02.csproj.CoreCompileInputs.cache
+D:\ЗКИ\ЛР04\pass\Part02\obj\Debug\Part02.exe
+D:\ЗКИ\ЛР04\pass\Part02\obj\Debug\Part02.pdb
+C:\Users\snglrtycrvtureofspce\Documents\snglrtycrvtureofspce\GitHub\computer-information-protection\Labs\Lab04\pass\Part02\bin\Debug\Part02.exe.config
+C:\Users\snglrtycrvtureofspce\Documents\snglrtycrvtureofspce\GitHub\computer-information-protection\Labs\Lab04\pass\Part02\bin\Debug\Part02.exe
+C:\Users\snglrtycrvtureofspce\Documents\snglrtycrvtureofspce\GitHub\computer-information-protection\Labs\Lab04\pass\Part02\bin\Debug\Part02.pdb
+C:\Users\snglrtycrvtureofspce\Documents\snglrtycrvtureofspce\GitHub\computer-information-protection\Labs\Lab04\pass\Part02\obj\Debug\Part02.csproj.AssemblyReference.cache
+C:\Users\snglrtycrvtureofspce\Documents\snglrtycrvtureofspce\GitHub\computer-information-protection\Labs\Lab04\pass\Part02\obj\Debug\Part02.csproj.SuggestedBindingRedirects.cache
+C:\Users\snglrtycrvtureofspce\Documents\snglrtycrvtureofspce\GitHub\computer-information-protection\Labs\Lab04\pass\Part02\obj\Debug\Part02.csproj.CoreCompileInputs.cache
+C:\Users\snglrtycrvtureofspce\Documents\snglrtycrvtureofspce\GitHub\computer-information-protection\Labs\Lab04\pass\Part02\obj\Debug\Part02.exe
+C:\Users\snglrtycrvtureofspce\Documents\snglrtycrvtureofspce\GitHub\computer-information-protection\Labs\Lab04\pass\Part02\obj\Debug\Part02.pdb
