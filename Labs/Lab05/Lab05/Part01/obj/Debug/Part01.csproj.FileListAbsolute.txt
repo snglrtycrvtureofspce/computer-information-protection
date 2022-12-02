@@ -1,0 +1,16 @@
+D:\ЗКИ\ЛР05\pass\Part01\bin\Debug\Part01.exe.config
+D:\ЗКИ\ЛР05\pass\Part01\bin\Debug\Part01.exe
+D:\ЗКИ\ЛР05\pass\Part01\bin\Debug\Part01.pdb
+D:\ЗКИ\ЛР05\pass\Part01\obj\Debug\Part01.csproj.AssemblyReference.cache
+D:\ЗКИ\ЛР05\pass\Part01\obj\Debug\Part01.csproj.SuggestedBindingRedirects.cache
+D:\ЗКИ\ЛР05\pass\Part01\obj\Debug\Part01.csproj.CoreCompileInputs.cache
+D:\ЗКИ\ЛР05\pass\Part01\obj\Debug\Part01.exe
+D:\ЗКИ\ЛР05\pass\Part01\obj\Debug\Part01.pdb
+C:\Users\snglrtycrvtureofspce\Desktop\Protection-of-computer-information-main\ЛР05\pass\Part01\bin\Debug\Part01.exe.config
+C:\Users\snglrtycrvtureofspce\Desktop\Protection-of-computer-information-main\ЛР05\pass\Part01\bin\Debug\Part01.exe
+C:\Users\snglrtycrvtureofspce\Desktop\Protection-of-computer-information-main\ЛР05\pass\Part01\bin\Debug\Part01.pdb
+C:\Users\snglrtycrvtureofspce\Desktop\Protection-of-computer-information-main\ЛР05\pass\Part01\obj\Debug\Part01.csproj.AssemblyReference.cache
+C:\Users\snglrtycrvtureofspce\Desktop\Protection-of-computer-information-main\ЛР05\pass\Part01\obj\Debug\Part01.csproj.SuggestedBindingRedirects.cache
+C:\Users\snglrtycrvtureofspce\Desktop\Protection-of-computer-information-main\ЛР05\pass\Part01\obj\Debug\Part01.csproj.CoreCompileInputs.cache
+C:\Users\snglrtycrvtureofspce\Desktop\Protection-of-computer-information-main\ЛР05\pass\Part01\obj\Debug\Part01.exe
+C:\Users\snglrtycrvtureofspce\Desktop\Protection-of-computer-information-main\ЛР05\pass\Part01\obj\Debug\Part01.pdb
