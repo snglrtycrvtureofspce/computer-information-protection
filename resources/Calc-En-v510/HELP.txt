@@ -1,0 +1,35 @@
+=====================================================================
+SAFE CALCULATOR v5.10 - Commands list
+=====================================================================
+
+(see also "Help" button or "F1" key in Safe mode)
+
+IN SAFE MODE		
+~~~~~~~~~~~~
+Button		Keyboard	Main control
+				~~~~~~~~~~~~
++		+		STORAGE: stores the file in the safe
+-		-		RESTITUTION: Restores the file from the safe
+*		*		EXTRACTION: Extracts a copy of the file stored from the safe
+/		/		DISPLAY/EXECUTION: Displays or runs the file stored (deleting a text file after its display)
+sqrt		Page Down	DISPLAY/EXECUTION + EXIT: ditto the Display/Execution command, then closes the calculator
+1/x		Page Up		UPDATING: Replaces the file stored with a new file the same name
+=		Enter		CONFIRMATION: Confirm action
+		
+				Other commands
+				~~~~~~~~~~~~~~~~
+MC		End or Escape	BACK CALCULATOR MODE: Returns to Calculator mode
+MS		Home		SECRET CODE DISPLAY: Displays the PIN in memory
+New PIN		Backspace	STORAGE STATUS: Displays information about the file stored
+Status		Del		HELP: Displays help (Calculator help or Safe help according to the mode)
+Help		F1		SECRET CODE CHANGE: Allows to choose a new PIN
+		
+Click Display	Space		SCROLLING DISPLAY: continues or resumes the scrolling display
+Memory box	Del		STORAGE STATUS: Displays [ Emp ] if empty, or [ File ] if a file is stored
+
+IN CALCULATOR MODE
+~~~~~~~~~~~~~~~~~~~~
+Mouse / Button	Keyboard	Additional commands
+				~~~~~~~~~~~~~~~~~~~
+Click Display	H or h		DISABLE / ENABLE DISPLAY: New command to allows you to hide the typing of the PIN
+MS		Home		STORE IN MEMORY: New keyboard command to make typing of the PIN easier
