@@ -1,0 +1,177 @@
+What's new in Hide Folders XP
+
+
+Legend: 
++ Added feature 
+* Improved/changed feature 
+- Bug fixed (we hope) 
+-------------------------- 
+
+Hide Folders XP 2.9.8
+
+* Password store method changed
+- Some minor bugs fixed
+
+
+Hide Folders XP 2.9.5
+
+- Some minor bugs fixed
+
+
+Hide Folders XP 2.9.2
+
+* Improved compatibility with large font settings (120 DPI)
+* Improved user interface compatibility with Windows Vista
+
+
+Hide Folders XP 2.9
+
+*Windows Vista x64 support added
+
+
+Hide Folders XP 2.8.7
+
++ New option "Enable protection when the system Stands By/Hibernates" added 
+- Fixed a bug with quit action in tray module
+- Some minor bugs fixed
+
+
+Hide Folders XP 2.8
+
+This version is redesigned to be compatible with Windows Vista.
+There are 2 executable files are in the Hide Folders XP application folder:
+HFXP.exe - Hide Folders XP startup module.
+HFXPCP.exe - Hide Folders XP control panel.
+Startup module doesn't require administrative privileges and would not display UAC warning on Vista. 
+
+
+Hide Folders XP 2.7
+
++ Import/Export commands for protected items list added
++ Additional shell commands to lock and hide folders
+* Language support fixed (new texts added)
+- Fixed Hide Folders XP shell integration
+- Fixed compatibility issues between Hide Folders XP driver and some third party software
+
+
+Hide Folders XP 2.6.5
+
+- Virus in DLL False Positive issue fixed
+- Some minor bugs fixed
+
+
+Hide Folders XP 2.6
+
++ You can now Drag passwords from password managers into Hide Folders XP password prompt
++ Hide "Hide Folders XP" process feature added
++ Disable protection when Hide Folders XP popups option added
+- Trojan False Positive issue fixed
+
+
+Hide Folders XP 2.5
+
++ Password hint added
+* Demo password for trial version added
+- Some minor bugs fixed
+
+
+Hide Folders XP 2.4.5
+
++ Now Hide Folders XP works with Windows Vista Beta 2
+* Language files updated
+
+
+Hide Folders XP 2.4
+
++ Now Hide Folders XP works with Windows XP x64 and Windows Server 2003 x64 editions
++ You can hide folders automatically when the computer is idle
+- Windows Explorer sometimes displayed a hidden folder in the tree - fixed
+
+
+Hide Folders XP 2.3
+
++ Automatic and manual update search features added
++ Bug reporting feature added 
++ New options added
+- Some minor bugs fixed
+
+
+Hide Folders XP 2.2
+
++ New wipe tracks options added
+* Improved user interface
+
+
+Hide Folders XP 2.1
+
+* Improved user interface
+- Fixed a conflict between Hide Folders XP and some third-party software.
+
+
+Hide Folders XP 2.0
+
++ New hide engine has been totally rewritten
++ Now Hide Folders XP can hide (not lock) itself
++ Now Hide Folders XP can protect separate files as well as folders
++ It is possible to add unlimited number of files and folders to the list
++ New modes of files and folders protection (Hide, Lock, Hide & Lock)
++ It is possible to leave files and folders unprotected after quit
++ Now Hide Folders XP can be integrated into Windows Explorer's context menu
+* Improved behavior when adding a shortcut to a file object
+* Several user interface improvements
+
+
+Hide Folders XP 1.6
+
+* Added "Fix "My Documents" etc..." command in Tools submenu
++ Added option that removes Hide Folders XP from the list of the program you use most often.
+- Serious bug fixed (Ins hotkey in password window disabled)
+- Some minor bugs fixed
+
+
+Hide Folders XP 1.5
+
++ Added command line options, run hfxp.exe /? to read info
+* Some improvements in the hiding engine
+- Fixed some problems with clearing Recents and Recycle Bin
+
+
+Hide Folders XP 1.4
+
++ Added program tips
++ New language files added
+- Some minor bugs fixed
+
+
+Hide Folders XP 1.3
+
++ Added an option to hide folders automatically when a screen saver starts
++ You can open folder instantly by double clicking on it in the folder list
++ Startup options group added
++ "Strict" password policy implemented
+* Some user interface improvements
+* Window captions are added to the language files
+- Fixed an incompatibility with some registry cleaners
+- Some minor bugs fixed.
+
+
+Hide Folders XP 1.2
+
+* Internal structure optimized
+- Minor bugs fixed
+
+
+Hide Folders XP 1.1
+
++ Clear Recycle Bin items originally located in hidden folders option added
++ Hide folders in Windows safe mode option added
++ Hide uninstall information option added
++ Now it is possible to minimize Hide Folders XP to tray at startup
++ Hot keys support added
+* Folders named with national language symbols also can be hidden
+* New user interface languages support added
+- Fixed serious security flaw with Hide Folders XP password protection
+- If one of the folder was off-line Hide Folders XP could work incorrectly
+
+
+Hide Folders XP 1.0 - first public release
