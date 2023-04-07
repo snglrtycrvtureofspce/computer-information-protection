@@ -1,0 +1,8 @@
+C:\Users\asp1r\snglrtycrvtureofspce\GitHub\computer-information-protection\Labs\Lab12-13\bin\Debug\Lab12-13.exe.config
+C:\Users\asp1r\snglrtycrvtureofspce\GitHub\computer-information-protection\Labs\Lab12-13\bin\Debug\Lab12-13.exe
+C:\Users\asp1r\snglrtycrvtureofspce\GitHub\computer-information-protection\Labs\Lab12-13\bin\Debug\Lab12-13.pdb
+C:\Users\asp1r\snglrtycrvtureofspce\GitHub\computer-information-protection\Labs\Lab12-13\obj\Debug\Lab12-13.csproj.AssemblyReference.cache
+C:\Users\asp1r\snglrtycrvtureofspce\GitHub\computer-information-protection\Labs\Lab12-13\obj\Debug\Lab12-13.csproj.SuggestedBindingRedirects.cache
+C:\Users\asp1r\snglrtycrvtureofspce\GitHub\computer-information-protection\Labs\Lab12-13\obj\Debug\Lab12-13.csproj.CoreCompileInputs.cache
+C:\Users\asp1r\snglrtycrvtureofspce\GitHub\computer-information-protection\Labs\Lab12-13\obj\Debug\Lab12-13.exe
+C:\Users\asp1r\snglrtycrvtureofspce\GitHub\computer-information-protection\Labs\Lab12-13\obj\Debug\Lab12-13.pdb
