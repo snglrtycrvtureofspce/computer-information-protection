@@ -1,0 +1,28 @@
+# Nmap 7.94 scan initiated Fri Jun  2 02:17:37 2023 as: nmap -p- -oN C:\\Users\\HP\\Desktop\\result.txt.txt localhost
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.00088s latency).
+Other addresses for localhost (not scanned): ::1
+rDNS record for 127.0.0.1: api.kxvrqpr2.xyz
+Not shown: 65516 closed tcp ports (reset)
+PORT      STATE    SERVICE
+135/tcp   open     msrpc
+137/tcp   filtered netbios-ns
+445/tcp   open     microsoft-ds
+5040/tcp  open     unknown
+7070/tcp  open     realserver
+7335/tcp  open     swx
+8090/tcp  open     opsmessaging
+18412/tcp open     unknown
+44950/tcp open     unknown
+44960/tcp open     unknown
+45112/tcp open     unknown
+49664/tcp open     unknown
+49665/tcp open     unknown
+49666/tcp open     unknown
+49667/tcp open     unknown
+49668/tcp open     unknown
+49669/tcp open     unknown
+55506/tcp open     unknown
+55507/tcp open     unknown
+
+# Nmap done at Fri Jun  2 02:17:43 2023 -- 1 IP address (1 host up) scanned in 5.35 seconds

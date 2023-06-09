@@ -1,0 +1,27 @@
+Starting Nmap 7.94 ( https://nmap.org ) at 2023-06-02 02:34 Беларусь (зима)
+Stats: 0:00:08 elapsed; 0 hosts completed (1 up), 1 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 17.77% done; ETC: 02:34 (0:00:28 remaining)
+Nmap scan report for sila.by (93.125.48.70)
+Host is up (0.082s latency).
+rDNS record for 93.125.48.70: www.sila.by
+Not shown: 947 filtered tcp ports (no-response), 36 filtered tcp ports (host-prohibited)
+PORT      STATE  SERVICE
+20/tcp    closed ftp-data
+21/tcp    open   ftp
+22/tcp    open   ssh
+53/tcp    closed domain
+80/tcp    open   http
+110/tcp   open   pop3
+143/tcp   open   imap
+443/tcp   open   https
+465/tcp   open   smtps
+587/tcp   open   submission
+993/tcp   open   imaps
+995/tcp   open   pop3s
+1500/tcp  open   vlsi-lm
+3306/tcp  closed mysql
+5432/tcp  closed postgresql
+9090/tcp  open   zeus-admin
+35500/tcp closed unknown
+
+Nmap done: 1 IP address (1 host up) scanned in 33.90 seconds

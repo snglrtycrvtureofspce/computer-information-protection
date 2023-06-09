@@ -1,0 +1,28 @@
+Starting Nmap 7.94 ( https://nmap.org ) at 2023-06-02 02:28 Беларусь (зима)
+Nmap scan report for sila.by (93.125.48.70)
+Host is up (0.019s latency).
+rDNS record for 93.125.48.70: www.sila.by
+Not shown: 981 filtered tcp ports (no-response), 2 filtered tcp ports (host-prohibited)
+PORT      STATE  SERVICE
+20/tcp    closed ftp-data
+21/tcp    open   ftp
+22/tcp    open   ssh
+53/tcp    closed domain
+80/tcp    open   http
+110/tcp   open   pop3
+143/tcp   open   imap
+443/tcp   open   https
+465/tcp   open   smtps
+587/tcp   open   submission
+993/tcp   open   imaps
+995/tcp   open   pop3s
+1500/tcp  open   vlsi-lm
+3306/tcp  closed mysql
+5432/tcp  closed postgresql
+9090/tcp  open   zeus-admin
+35500/tcp closed unknown
+Aggressive OS guesses: Linux 3.10 - 4.11 (92%), Linux 5.1 (90%), Linux 3.2 - 4.9 (89%), Linux 3.13 (88%), Linux 3.13 or 4.2 (88%), Linux 4.10 (88%), Linux 4.2 (88%), Linux 4.4 (88%), Asus RT-AC66U WAP (88%), Linux 3.10 (88%)
+No exact OS matches for host (test conditions non-ideal).
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 9.38 seconds

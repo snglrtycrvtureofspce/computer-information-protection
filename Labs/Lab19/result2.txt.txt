@@ -1,0 +1,217 @@
+Starting Nmap 7.94 ( https://nmap.org ) at 2023-06-02 02:23 Беларусь (зима)
+Nmap scan report for sila.by (93.125.48.70)
+Host is up (0.069s latency).
+rDNS record for 93.125.48.70: www.sila.by
+Not shown: 64214 filtered tcp ports (no-response), 304 filtered tcp ports (host-prohibited), 1004 closed tcp ports (reset)
+PORT     STATE SERVICE      VERSION
+21/tcp   open  ftp          ProFTPD or KnFTPD
+| ssl-cert: Subject: commonName=example.com/organizationName=XX/stateOrProvinceName=XX/countryName=XX
+| Not valid before: 2019-03-19T14:18:35
+|_Not valid after:  2029-03-16T14:18:35
+22/tcp   open  ssh          OpenSSH 7.4 (protocol 2.0)
+80/tcp   open  http         nginx 1.20.2
+|_http-title: Did not follow redirect to https://sila.by:443/
+|_http-server-header: nginx/1.20.2
+110/tcp  open  pop3         Dovecot pop3d
+|_pop3-capabilities: TOP UIDL AUTH-RESP-CODE STLS CAPA SASL(PLAIN LOGIN DIGEST-MD5 CRAM-MD5) USER RESP-CODES PIPELINING
+| ssl-cert: Subject: commonName=dedic-177.hosterby.com/organizationName=XX/stateOrProvinceName=XX/countryName=XX
+| Not valid before: 2019-03-19T14:17:53
+|_Not valid after:  2029-03-16T14:17:53
+|_ssl-date: TLS randomness does not represent time
+143/tcp  open  imap         Dovecot imapd
+|_imap-capabilities: AUTH=PLAIN capabilities have Pre-login AUTH=DIGEST-MD5 SASL-IR IMAP4rev1 AUTH=LOGIN AUTH=CRAM-MD5A0001 OK more IDLE post-login listed STARTTLS ENABLE LOGIN-REFERRALS ID LITERAL+
+|_ssl-date: TLS randomness does not represent time
+| ssl-cert: Subject: commonName=dedic-177.hosterby.com/organizationName=XX/stateOrProvinceName=XX/countryName=XX
+| Not valid before: 2019-03-19T14:17:53
+|_Not valid after:  2029-03-16T14:17:53
+443/tcp  open  ssl/http     nginx 1.20.2
+| http-robots.txt: 65 disallowed entries (15 shown)
+| /sale/ /calk/ /search* /seo/ /admin/ /newadmin/ 
+| /novinki/ /testers/ /*% /*sort /*SORT /tracking.php /index.php 
+|_/tracking/ /complite
+|_http-title: \xAB\xDD\xCB\xC5\xCA\xD2\xD0\xCE\xD1\xC8\xCB\xC0\xBB - \xE8\xED\xF2\xE5\xF0\xED\xE5\xF2-\xEC\xE0\xE3\xE0\xE7\xE8\xED \xE1\xFB\xF2\xEE\xE2\xEE\xE9 \xF2\xE5\xF5\xED\xE8\xEA\xE8 \xE2 \xCC\xE8\xED\xF1\xEA\xE5
+|_ssl-date: TLS randomness does not represent time
+| tls-nextprotoneg: 
+|   h2
+|_  http/1.1
+| tls-alpn: 
+|   h2
+|_  http/1.1
+| ssl-cert: Subject: commonName=*.sila.by/organizationName=OOO ELEKTROSERVIS I KO/stateOrProvinceName=Minsk/countryName=BY
+| Subject Alternative Name: DNS:*.sila.by, DNS:sila.by
+| Not valid before: 2022-10-18T06:23:31
+|_Not valid after:  2023-11-19T06:23:30
+|_http-server-header: nginx/1.20.2
+465/tcp  open  ssl/smtp     Exim smtpd 4.96
+|_ssl-date: TLS randomness does not represent time
+| ssl-cert: Subject: commonName=dedic-177.hosterby.com/organizationName=XX/stateOrProvinceName=XX/countryName=XX
+| Not valid before: 2019-03-19T14:17:53
+|_Not valid after:  2029-03-16T14:17:53
+| smtp-commands: sila.by Hello mm-159-63-84-93.mgts.dynamic.pppoe.byfly.by [93.84.63.159], SIZE 52428800, 8BITMIME, PIPELINING, PIPECONNECT, AUTH PLAIN LOGIN CRAM-MD5, CHUNKING, HELP
+|_ Commands supported: AUTH HELO EHLO MAIL RCPT DATA BDAT NOOP QUIT RSET HELP
+587/tcp  open  smtp         Exim smtpd 4.96
+| smtp-commands: sila.by Hello mm-159-63-84-93.mgts.dynamic.pppoe.byfly.by [93.84.63.159], SIZE 52428800, 8BITMIME, PIPELINING, PIPECONNECT, AUTH PLAIN LOGIN CRAM-MD5, CHUNKING, STARTTLS, HELP
+|_ Commands supported: AUTH STARTTLS HELO EHLO MAIL RCPT DATA BDAT NOOP QUIT RSET HELP
+|_ssl-date: TLS randomness does not represent time
+| ssl-cert: Subject: commonName=dedic-177.hosterby.com/organizationName=XX/stateOrProvinceName=XX/countryName=XX
+| Not valid before: 2019-03-19T14:17:53
+|_Not valid after:  2029-03-16T14:17:53
+993/tcp  open  ssl/imap     Dovecot imapd
+|_imap-capabilities: LITERAL+ post-login have Pre-login AUTH=DIGEST-MD5 SASL-IR IMAP4rev1 AUTH=LOGIN AUTH=CRAM-MD5A0001 OK IDLE more listed AUTH=PLAIN ENABLE LOGIN-REFERRALS ID capabilities
+| ssl-cert: Subject: commonName=dedic-177.hosterby.com/organizationName=XX/stateOrProvinceName=XX/countryName=XX
+| Not valid before: 2019-03-19T14:17:53
+|_Not valid after:  2029-03-16T14:17:53
+|_ssl-date: TLS randomness does not represent time
+995/tcp  open  ssl/pop3     Dovecot pop3d
+|_pop3-capabilities: TOP UIDL SASL(PLAIN LOGIN DIGEST-MD5 CRAM-MD5) AUTH-RESP-CODE USER CAPA RESP-CODES PIPELINING
+|_ssl-date: TLS randomness does not represent time
+| ssl-cert: Subject: commonName=dedic-177.hosterby.com/organizationName=XX/stateOrProvinceName=XX/countryName=XX
+| Not valid before: 2019-03-19T14:17:53
+|_Not valid after:  2029-03-16T14:17:53
+1500/tcp open  ssl/vlsi-lm?
+| fingerprint-strings: 
+|   FourOhFourRequest: 
+|     HTTP/1.0 404 Not Found
+|     Content-Length: 4371
+|     Date: Thu, 01 Jun 2023 23:30:06 GMT
+|     <!DOCTYPE html>
+|     <html>
+|     <head>
+|     <title>404 Not Found</title>
+|     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+|     <link rel="preconnect" href="https://fonts.googleapis.com">
+|     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+|     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
+|     <style>
+|     margin: 0;
+|     padding: 0;
+|     box-sizing: border-box;
+|     body {
+|     font-family: 'Ubuntu', sans-serif;
+|     height: 100vh;
+|     min-height: 600px;
+|     display: flex;
+|     flex-direction: column;
+|     color: #344A5E;
+|     .central-content {
+|     display: flex;
+|     flex-grow: 1;
+|     flex-shrink: 0;
+|     flex-direction: column;
+|     justify-content: center;
+|     align-items: center;
+|   GetRequest: 
+|     HTTP/1.0 200 OK
+|     Connection: close
+|     Content-Type: text/html; charset=UTF-8
+|     Pragma: no-cache
+|     Cache-Control: no-cache
+|     Expires: 0
+|     Set-Cookie: ispmgrses5=; path=/; HttpOnly; expires=Sat, 01 Jun 2024 02:29:32 +03; Secure
+|     Set-Cookie: ispmgrlang5=dragon:en; path=/; expires=Sat, 01 Jun 2024 02:29:32 +03; Secure; HttpOnly
+|     X-Frame-Options: SAMEORIGIN
+|     Date: Thu, 01 Jun 2023 23:29:32 GMT
+|     <!DOCTYPE html><html>
+|     <head>
+|     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+|     <title>Authorization</title>
+|     <link rel="stylesheet" href="/manimg/dragon/default/main.css" type="text/css">
+|     <link rel="mask-icon" href="https:///manimg/common/maskicon/ispmgr.svg" color="#000000">
+|     <link rel="shortcut icon" href="/manimg/dragon/default/favicon-ispmgr.ico" type="image/x-icon">
+|     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable
+|   HTTPOptions: 
+|     HTTP/1.0 200 OK
+|     Content-Length: 0
+|_    Date: Thu, 01 Jun 2023 23:29:32 GMT
+|_ssl-date: 2023-06-01T23:30:48+00:00; -24s from scanner time.
+| ssl-cert: Subject: commonName=sila.by
+| Subject Alternative Name: DNS:sila.by
+| Not valid before: 2022-09-01T23:53:14
+|_Not valid after:  2022-11-30T23:53:13
+9090/tcp open  ssl/http     nginx 1.20.2
+|_http-title: 401 Authorization Required
+| http-auth: 
+| HTTP/1.1 401 Unauthorized\x0D
+|_  Basic realm=Contact your hosting provider for the password (support@hoster.by)
+| tls-nextprotoneg: 
+|   h2
+|_  http/1.1
+|_ssl-date: TLS randomness does not represent time
+| tls-alpn: 
+|   h2
+|_  http/1.1
+|_http-server-header: nginx/1.20.2
+| ssl-cert: Subject: commonName=sila.by
+| Subject Alternative Name: DNS:sila.by
+| Not valid before: 2022-09-01T23:53:14
+|_Not valid after:  2022-11-30T23:53:13
+9191/tcp open  ssl/http     nginx
+| ssl-cert: Subject: organizationName=Main Org.
+| Not valid before: 2022-09-23T13:32:52
+|_Not valid after:  2023-09-23T13:32:52
+|_ssl-date: TLS randomness does not represent time
+| http-title: Grafana
+|_Requested resource was /graph/login
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port1500-TCP:V=7.94%T=SSL%I=7%D=6/2%Time=647929D4%P=i686-pc-windows-win
+SF:dows%r(GetRequest,2F86,"HTTP/1\.0\x20200\x20OK\r\nConnection:\x20close\
+SF:r\nContent-Type:\x20text/html;\x20charset=UTF-8\r\nPragma:\x20no-cache\
+SF:r\nCache-Control:\x20no-cache\r\nExpires:\x200\r\nSet-Cookie:\x20ispmgr
+SF:ses5=;\x20path=/;\x20HttpOnly;\x20expires=Sat,\x2001\x20Jun\x202024\x20
+SF:02:29:32\x20\+03;\x20Secure\r\nSet-Cookie:\x20ispmgrlang5=dragon:en;\x2
+SF:0path=/;\x20expires=Sat,\x2001\x20Jun\x202024\x2002:29:32\x20\+03;\x20S
+SF:ecure;\x20HttpOnly\r\nX-Frame-Options:\x20SAMEORIGIN\r\nDate:\x20Thu,\x
+SF:2001\x20Jun\x202023\x2023:29:32\x20GMT\r\n\r\n<!DOCTYPE\x20html><html>\
+SF:n<head>\n<meta\x20http-equiv=\"Content-Type\"\x20content=\"text/html;\x
+SF:20charset=UTF-8\">\n<title>Authorization</title>\n<link\x20rel=\"styles
+SF:heet\"\x20href=\"/manimg/dragon/default/main\.css\"\x20type=\"text/css\
+SF:">\n<link\x20rel=\"mask-icon\"\x20href=\"https:///manimg/common/maskico
+SF:n/ispmgr\.svg\"\x20color=\"#000000\">\n<link\x20rel=\"shortcut\x20icon\
+SF:"\x20href=\"/manimg/dragon/default/favicon-ispmgr\.ico\"\x20type=\"imag
+SF:e/x-icon\">\n<meta\x20name=\"viewport\"\x20content=\"width=device-width
+SF:,\x20initial-scale=1\.0,\x20minimum-scale=1\.0,\x20maximum-scale=1\.0,\
+SF:x20user-scalable")%r(HTTPOptions,4B,"HTTP/1\.0\x20200\x20OK\r\nContent-
+SF:Length:\x200\r\nDate:\x20Thu,\x2001\x20Jun\x202023\x2023:29:32\x20GMT\r
+SF:\n\r\n")%r(FourOhFourRequest,1168,"HTTP/1\.0\x20404\x20Not\x20Found\r\n
+SF:Content-Length:\x204371\r\nDate:\x20Thu,\x2001\x20Jun\x202023\x2023:30:
+SF:06\x20GMT\r\n\r\n<!DOCTYPE\x20html>\n<html>\n<head>\n\x20\x20<title>404
+SF:\x20Not\x20Found</title>\n\x20\x20<meta\x20http-equiv=\"Content-Type\"\
+SF:x20content=\"text/html;\x20charset=UTF-8\">\n\x20\x20<link\x20rel=\"pre
+SF:connect\"\x20href=\"https://fonts\.googleapis\.com\">\n\x20\x20<link\x2
+SF:0rel=\"preconnect\"\x20href=\"https://fonts\.gstatic\.com\"\x20crossori
+SF:gin>\n\x20\x20<link\x20href=\"https://fonts\.googleapis\.com/css2\?fami
+SF:ly=Ubuntu:wght@400;500&display=swap\"\x20rel=\"stylesheet\">\n\x20\x20<
+SF:style>\n\x20\x20\x20\x20\*\x20{\n\x20\x20\x20\x20\x20\x20margin:\x200;\
+SF:n\x20\x20\x20\x20\x20\x20padding:\x200;\n\x20\x20\x20\x20\x20\x20box-si
+SF:zing:\x20border-box;\n\x20\x20\x20\x20}\n\x20\x20\x20\x20body\x20{\n\x2
+SF:0\x20\x20\x20\x20\x20font-family:\x20'Ubuntu',\x20sans-serif;\n\x20\x20
+SF:\x20\x20\x20\x20height:\x20100vh;\n\x20\x20\x20\x20\x20\x20min-height:\
+SF:x20600px;\n\x20\x20\x20\x20\x20\x20display:\x20flex;\n\x20\x20\x20\x20\
+SF:x20\x20flex-direction:\x20column;\n\x20\x20\x20\x20\x20\x20color:\x20#3
+SF:44A5E;\n\x20\x20\x20\x20}\n\x20\x20\x20\x20\.central-content\x20{\n\x20
+SF:\x20\x20\x20\x20\x20display:\x20flex;\n\x20\x20\x20\x20\x20\x20flex-gro
+SF:w:\x201;\n\x20\x20\x20\x20\x20\x20flex-shrink:\x200;\n\x20\x20\x20\x20\
+SF:x20\x20flex-direction:\x20column;\n\x20\x20\x20\x20\x20\x20justify-cont
+SF:ent:\x20center;\n\x20\x20\x20\x20\x20\x20align-items:\x20center;\n\x20\
+SF:x20\x20\x20");
+Aggressive OS guesses: Linux 3.10 - 4.11 (92%), Linux 5.1 (90%), Linux 3.18 (89%), Linux 3.2 - 4.9 (89%), Linux 3.13 (88%), Linux 3.13 or 4.2 (88%), Linux 4.10 (88%), Linux 4.2 (88%), Linux 4.4 (88%), Asus RT-AC66U WAP (88%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 8 hops
+Service Info: Host: sila.by; OS: Unix
+
+Host script results:
+|_clock-skew: -24s
+
+TRACEROUTE (using port 53/tcp)
+HOP RTT      ADDRESS
+1   81.00 ms 192.168.180.229
+2   86.00 ms 192.168.100.1
+3   87.00 ms mm-1-0-84-93.mgts.dynamic.pppoe.byfly.by (93.84.0.1)
+4   88.00 ms mm-57-80-84-93.dynamic.pppoe.mgts.by (93.84.80.57)
+5   87.00 ms core1.net.belpak.by (93.85.80.45)
+6   86.00 ms 93.84.125.189
+7   86.00 ms 10g.datacenter.beltelecom.by (178.124.134.61)
+8   85.00 ms www.sila.by (93.125.48.70)
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 445.73 seconds
